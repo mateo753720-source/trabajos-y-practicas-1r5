@@ -1,10 +1,4 @@
-/******************************************************************************
 
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
 
 #include <stdio.h>
 
@@ -31,6 +25,20 @@ printf("usted tiene un peso normal\n");}
 printf("usted tiene sobrepeso\n");}
   else  if (30.0<=resultado){
 printf("usted tiene obesidad\n");}
+  printf("  
+    Índice    |  Condición
+
+-----------------------------
+
+    <18.5     |  Bajo peso
+
+ 18.5 a 24.9  |  Normal
+
+ 25.0 a 29.9  |  Sobrepeso
+
+     >=30     |  Obesidad   \n"
+
+
 
 
     return 0;
